@@ -1,0 +1,31 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/Downloads_gamified-budget-app_c42ddebc._.js",
+        "server/edge/chunks/[root-of-the-server]__05462da7._.js",
+        "server/edge/chunks/turbopack-Downloads_gamified-budget-app_edge-wrapper_fb3a4ee6.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*){(\\\\.json)}?",
+          "originalSource": "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "yTupwDze1cMCI4yxcLlAktyWrbbVSbsIrswSr8UPvJA=",
+        "__NEXT_PREVIEW_MODE_ID": "1f006245694f67039f4652b3b8e8ae13",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "b54c723116571b72c667fb709602df1b8073b33182cea0fb9cba06c9e36a7b8b",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "1361d8638454873b0578a9b9dd244a2a43627d47efc5b7cd46b991fd433470eb"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}
